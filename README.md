@@ -1,9 +1,12 @@
 mobility-app
 ============
-Digital tool to increase housing mobility to higher-opportunity areas, designed with Connecticut Open Communities Alliance (http://ctoca.org) 
+Digital tool to increase housing mobility to higher-opportunity areas, designed with Connecticut Open Communities Alliance (http://ctoca.org)
 
 ##Demo
-- http://jackdougherty.github.io/mobility-app OR http://erinboggs.github.io/mobility-app/ OR 
+- https://jackdougherty.github.io/mobility-app OR
+- https://erinboggs.github.io/mobility-app/ OR
+- http://www.ctoca.org/mobility_app
+
 
 ##How to copy this open-source code with GitHub
 - Learn how to use free GitHub browser tool at http://DataVizForAll.org
@@ -28,5 +31,5 @@ Digital tool to increase housing mobility to higher-opportunity areas, designed 
 ##Credits
 - originally created at CT Mirror inequality civic hackathon, April 2014 http://ctmirror.org/how-the-ct-mirror-hackathon-taught-me-to-be-a-student-again/
 - based on Searchable Map Template for Google Fusion Tables by @derekeder https://github.com/derekeder/FusionTable-Map-Template
-- code modified by DataViz team at Trinity College @JackDougherty https://github.com/JackDougherty 
+- code modified by DataViz team at Trinity College @JackDougherty https://github.com/JackDougherty
 - data and code contributions by Scott @sgaul https://github.com/sgaul/opportunity, Christopher @cbrechlin, NataliaV @nav10003
