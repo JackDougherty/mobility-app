@@ -22,7 +22,7 @@ var MapsLib = {
   //the encrypted Table ID of your Fusion Table (found under File => About)
   //NOTE: numeric IDs will be deprecated soon
   fusionTableId:      "1qk9z46VakTMrA7zLpt8y4SfQos3FGsWhRTrww1yZ", //Mobility App Neighborhood Assets point layer
-  // https://www.google.com/fusiontables/DataSource?docid=1qk9z46VakTMrA7zLpt8y4SfQos3FGsWhRTrww1yZ  
+  // https://www.google.com/fusiontables/DataSource?docid=1qk9z46VakTMrA7zLpt8y4SfQos3FGsWhRTrww1yZ
 
   polygon1TableID:    "19hpBpYE3GaHGZL79CJHN77wRHsiUDNnyEgLvvyjB", // Opportunity-index-2014-updated-2015-02-10 (with Census 2010 tracts polygons)
   // https://www.google.com/fusiontables/data?docid=19hpBpYE3GaHGZL79CJHN77wRHsiUDNnyEgLvvyjB#map:id=3
@@ -42,7 +42,7 @@ var MapsLib = {
   recordNamePlural:   "results",
 
 
-  searchRadius:       805,            //in meters ~ 1/2 mile
+  searchRadius:       8050,            //in meters ~ 5 miles
   defaultZoom:        9,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage:    'images/blue-pushpin.png', // set to empty '' to hide searched address marker
   currentPinpoint:    null,
@@ -77,7 +77,7 @@ var MapsLib = {
 
     MapsLib.searchrecords = null;
 
-    //MODIFY to match 5-bucket GFT values of pre-checked polygon1  - insert again further below 
+    //MODIFY to match 5-bucket GFT values of pre-checked polygon1  - insert again further below
     MapsLib.setDemographicsLabels("very low", "low", "moderate", "high", "very high");
 
     // MODIFY if needed: defines background polygon1 and polygon2 layers
@@ -119,7 +119,7 @@ var MapsLib = {
     var whereClause = MapsLib.locationColumn + " not equal to ''";
 
 //-----custom filters for point data layer
-  
+
     //-- NUMERICAL OPTION - to display and filter a column of numerical data in your Google Fusion Table
     var type_column = "'TypeNum'";
     var searchType = type_column + " IN (-1,";
